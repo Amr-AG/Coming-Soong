@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Jua&display=swap" rel="stylesheet">
+        <title>MINI TOWNTEAM</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      color: #000;
+      font-family: 'Chewy', cursive;"
+  >
+    <div
+      class="header"
+      style="
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url('Cover.png');
+        background-repeat: none;
+        background-size: cover;
+        background-position: inherit;
+      "
+    >
+      <div
+        class="content"
+        style="
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(80%, -80%);
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          z-index: 10;
+          width: max-content;
+        "
+      >
+        <div class="logo">
+          <img style="width: 150px" src="Logo.png" alt="Logo" />
+        </div>
+        
+        <h1
+          style="
+            color: #ffffff;
+            font-size: 50px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            width: max-content;
+          "
+        >
+
+          <span style="color: #eb4747">C</span>
+          <span style="color: #ebeb47">O</span>
+          <span style="color: #4bf1ea">M
+          <span style="color: #47eb47">I</span>
+          <span style="color: #4747eb">N</span>
+          <span style="color: #eb4747">G</span>
+          <br>
+          <span style="color: #4747eb">S</span>
+          <span style="color: #47eb47">O</span>
+          <span style="color: #4bf1ea">O</span>
+          <span style="color: #ebeb47">N</span>
+        </h1>
+        <svg  width="12" style="z-index: 100;position: absolute;bottom: -33px;left:95px;filter:invert(1);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"/></svg> 
+
+        <!-- <div class="loader">
+          <div class="loader-inner">
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"> </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div
+          class="social"
+          style="display: flex; justify-content: center; align-items: center;top: 207px;
+          position: relative;z-index: 20;"
+        >
+          <div
+            class="facebook"
+            style="
+              width: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 10px;
+              z-index: 10;
+            "
+          >
+            <a
+              width="40"
+              height="30"
+              href="https://www.facebook.com/MINI.TOWNTEAM/"
+              target="_blank"
+              ><svg
+                style="filter: invert(1)"
+                width="40"
+                height="30"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  width="40"
+                  height="30"
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- <div
+            class="whatsapp"
+            style="
+            filter: invert(1);
+              width: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 10px;
+            "
+          >
+            <a width="40" height="30" href=""
+              ><svg
+                style=""
+                width="40"
+                height="30"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                />
+              </svg>
+            </a>
+          </div> -->
+
+          <div
+            class="instagram"
+            style="
+              width: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 20px;
+            "
+          >
+            <a
+              width="40"
+              height="30"
+              href="https://www.instagram.com/mini.townteam/"
+              target="_blank"
+            >
+              <svg
+                style="filter: invert(1)"
+                width="40"
+                height="30"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  width="40"
+                  height="30"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="overlay"
+        style="width: 100%; height: 100vh; background-color: #170303f8; opacity: 80%"
+      ></div>
+    </div>
+    <style>
+      svg:hover {
+        transform: scale(1.1);
+        transition:0.65s;
+      }
+      /* .loader {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 260px;
+    z-index: 99999;
+}
+
+.loader-inner {
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+
+.loader-line-wrap {
+    animation: 
+		spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite
+	;
+    box-sizing: border-box;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transform-origin: 50% 100%;
+    width: 100px;
+}
+.loader-line {
+    border: 4px solid transparent;
+    border-radius: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+.loader-line-wrap:nth-child(1) { animation-delay: -50ms; }
+.loader-line-wrap:nth-child(2) { animation-delay: -100ms; }
+.loader-line-wrap:nth-child(3) { animation-delay: -150ms; }
+.loader-line-wrap:nth-child(4) { animation-delay: -200ms; }
+.loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
+
+.loader-line-wrap:nth-child(1) .loader-line {
+    border-color: hsl(0, 0%, 100%);
+    height: 90px;
+    width: 90px;
+    top: 7px;
+}
+.loader-line-wrap:nth-child(2) .loader-line {
+    border-color: #1c2c5b;
+    height: 76px;
+    width: 76px;
+    top: 14px;
+}
+.loader-line-wrap:nth-child(3) .loader-line {
+    border-color: #1c2c5b;
+    height: 62px;
+    width: 62px;
+    top: 21px;
+}
+.loader-line-wrap:nth-child(4) .loader-line {
+    border-color: #1c2c5b;
+    height: 48px;
+    width: 48px;
+    top: 28px;
+}
+.loader-line-wrap:nth-child(5) .loader-line {
+    border-color: #fff;
+    height: 34px;
+    width: 34px;
+    top: 35px;
+}
+
+@keyframes spin {
+    0%, 15% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}  */
+
+.loading{
+	position: absolute;
+	top: 112%;
+	left: 50%;
+  transform: translate(-50%,-50%);
+	width: max-content;
+	z-index: 999;
+}
+.loading > span{
+  box-sizing: border-box;
+	background: rgba(229, 194, 10, 0.01);
+  position: absolute;
+	border-radius: 50%;
+}
+.loading > span:nth-of-type(1){
+	width: 180px;
+	height: 180px;
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);
+	border-left: 1px solid rgba(229, 0, 10, 0.64);
+	border-top: 1px solid rgba(229, 0, 10, 0.64);
+	animation: loading 1s infinite linear;
+}
+
+.loading > span:nth-of-type(2){
+	width: 140px;
+	height: 140px;
+	top: calc(50% - 80px);
+	left: calc(50% - 80px);
+	border-right: 1px solid rgba(229, 194, 10, 0.64);
+	border-top: 1px solid rgba(229, 194, 10, 0.64);
+	animation: loading 1s infinite linear;
+}
+.loading > span:nth-of-type(3){
+	width: 100px;
+	height: 100px;
+	top: calc(50% - 60px);
+	left: calc(50% - 60px);
+	border-right: 1px solid rgba(0, 194, 10, 0.64);
+	border-bottom: 1px solid rgba(0, 194, 10, 0.64);
+	animation: loading 1s infinite linear;
+}
+.loading > span:nth-of-type(4){
+	width: 60px;
+	height: 60px;
+	top: calc(50% - 40px);
+	left: calc(50% - 40px);
+	border-left: 1px solid rgba(229, 194, 10, 0.64);
+	border-bottom: 1px solid rgba(229, 194, 10, 0.64);
+	animation: loading 1s infinite linear;
+}
+.loading > span:nth-of-type(5){
+	width: 20px;
+	height: 20px;
+	top: calc(50% - 20px);
+	left: calc(50% - 20px);
+	border-left: 1px solid rgba(0, 194, 229, 0.64);
+	border-top: 1px solid rgba(0, 194, 229, 0.64);
+	animation: loading 1s infinite linear;
+}
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+ 
+    @media (max-width: 767px) {
+        .header {
+          background-position: unset !important;
+          background: url('Mobile.png')!important;
+          background-position: center !important;
+        }
+        .header .content {
+          transform: translate(-50%, -50%) !important;
+        }
+      }
+      @media (max-width: 375px) {
+        .header .content {
+          top:270px !important;
+        }
+      }
+      @media (max-width: 1023px) {
+        .header .content {
+          transform: translate(-50%, -58%) !important;
+        }
+      }
+    </style>
+  </body>
+</html>
